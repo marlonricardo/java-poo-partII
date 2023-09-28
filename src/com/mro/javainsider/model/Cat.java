@@ -10,4 +10,9 @@ public class Cat extends EarthPet{
     public void speak() {
         System.out.println("Miau, miau, miau...");
     }
+
+    @Override
+    public void sleep(int time) {
+
+    }
 }

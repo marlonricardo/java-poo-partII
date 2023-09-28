@@ -6,4 +6,9 @@ public class Dog extends EarthPet {
     public void speak() {
         System.out.println("Au, au, au...");
     }
+
+    @Override
+    public void sleep(int time) {
+
+    }
 }

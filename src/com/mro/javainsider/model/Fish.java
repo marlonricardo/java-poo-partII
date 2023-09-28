@@ -6,4 +6,8 @@ public class Fish extends WaterPet{
         System.out.println("Eu estou nadando...");
     }
 
+    @Override
+    public void sleep(int time) {
+
+    }
 }
